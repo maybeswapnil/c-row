@@ -1,25 +1,41 @@
-import logo from './logo.svg';
+/*
+
 import './App.css';
+import './script';
+import React, { useState, useEffect }  from 'react';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const [seconds, setSeconds] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setSeconds(seconds => seconds + 1);
+    }, 1500);
+    return () => clearInterval(interval);
+  }, []);
+  if(seconds%2==0) {
+      return (<Main />);
+  } else {
+    return(<h1 id="main">Breathe out!</h1>);
+  }
 }
 
+class Main extends React.Component {
+    constructor(props) {
+      super(props);
+
+      this.state = {
+          display: true
+      };
+    }
+    render() {
+          return(
+            <div>
+              <h1 id="main">Breathe in!</h1>
+            </div>
+          )
+      } 
+    }
+
 export default App;
+*/
