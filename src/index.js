@@ -147,7 +147,7 @@ render() {
                             <div className="d-flex h-100">
                                 <div className="project-text w-100 my-auto text-center text-lg-right">
                                     <h4 className="text-white">Find our discord bot here</h4>
-                                    <p className="mb-0 text-white-50"><a href="https://discord.com/api/oauth2/authorize?client_id=792374349554384906&permissions=2081418481&scope=bot" target="_blank" rel="noreferrer">Open</a></p>
+                                    <p className="mb-0 text-white-50" id="divein"><a href="https://discord.com/api/oauth2/authorize?client_id=792374349554384906&permissions=2081418481&scope=bot" target="_blank" rel="noreferrer">Open</a></p>
                                     <hr className="d-none d-lg-block mb-0 mr-0" />
                                 </div>
                             </div>
@@ -213,7 +213,7 @@ render() {
             </div>
         </section>
         
-        <footer className="footer bg-black small text-center text-white-50"><div className="container">Copyright © chemo and whythough</div></footer>
+        <footer className="footer bg-black small text-center text-white-50"><div className="container">copyright © chemo and whythough</div></footer>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>

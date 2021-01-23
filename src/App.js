@@ -81,7 +81,8 @@ class App extends React.Component {
   render() {
     return (
           <div className="App" id="helo">
-              <h2 style={{color: this.state.color}}>{this.state.mock}</h2>
+              <h2 style={{color: this.state.color, paddingBottom: '390px'}}>{this.state.mock}</h2>
+              <footer className="footer small text-center text-black-50" style={{fontSize: '15px', bottom: '0px'}}><div className="container">copyright © chemo and whythough</div></footer>
           </div>
     );
   }
