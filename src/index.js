@@ -112,7 +112,7 @@ render() {
                         </p>
                     </div>
                 </div>
-                <img className="img-fluid" src="https://source.unsplash.com/collection/2512863/1650x466" alt="asfas"/>
+                <img className="img-fluid" src="https://source.unsplash.com/collection/2512863/1650x566" alt="asfas"/>
             </div>
         </section>
         <section className="projects-section bg-light" id="projects">

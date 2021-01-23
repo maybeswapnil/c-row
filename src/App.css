@@ -4,3 +4,7 @@
   font-size: 30px;
   margin: auto;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
