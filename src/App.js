@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-
+//new
 const colors = ['#16a085',
                 '#27ae60',
                 '#2c3e50',
