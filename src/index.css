@@ -10207,7 +10207,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("https://images.pexels.com/photos/1769085/pexels-photo-1769085.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("https://images.pexels.com/photos/6022538/pexels-photo-6022538.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10286,7 +10286,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("https://images.pexels.com/photos/1769085/pexels-photo-1769085.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("https://images.unsplash.com/photo-1588506503353-dc25b6e7b7e2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1046&q=80");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
