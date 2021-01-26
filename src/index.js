@@ -85,9 +85,9 @@ render() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                     <ul className="navbar-nav ml-auto">
-                        <li classNameName="nav-item"><a className="nav-link js-scroll-trigger" href="#about">About</a></li>
+                        <li classNameName="nav-item"><a className="nav-link js-scroll-trigger" href="#about">Projects</a></li>
+                        <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#projects">Info</a></li>
                         <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
-                        <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     </ul>
                 </div>
             </div>
@@ -97,7 +97,7 @@ render() {
                 <div className="mx-auto text-center">
                     <h1 className="mx-auto my-0 text-uppercase">C-ROW</h1>
                     <h2 className="text-white-50 mx-auto mt-2 mb-5">Welcome to our lives</h2>
-                    <a className="btn btn-primary js-scroll-trigger" href="#divein">Dive in</a>
+                    <a className="btn btn-primary js-scroll-trigger" href="#signup">Dive in</a>
                 </div>
             </div>
         </header>
@@ -107,8 +107,9 @@ render() {
                     <div className="col-lg-8 mx-auto">
                         <h2 className="text-white mb-4">Find our projects here</h2>
                         <p className="text-white-50">
-                            Pojects from <a href="https://github.com/chemotharepy" target="_blank" rel="noreferrer">chemosenpai </a>
-                            and <a href="https://codepen.io/why_though" target="_blank" rel="noreferrer">whythough</a>
+                            Projects from <a href="https://github.com/chemotharepy" target="_blank" rel="noreferrer">chemosenpai </a> and <a href="https://codepen.io/why_though" target="_blank" rel="noreferrer">whythough.</a><br/>Check this
+                            <a href="https://codepen.io/swapnil-sharma/pen/XWdwPLX" rel="noreferrer"> small game </a>we are currently working on.<br/>
+                            Also, <a href="https://discord.com/api/oauth2/authorize?client_id=792374349554384906&permissions=2081418481&scope=bot" rel="noreferrer"> c-row </a> is a free bot for your discord server by why-though.
                         </p>
                     </div>
                 </div>
@@ -127,13 +128,14 @@ render() {
                     </div>
                 </div>
                 <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div className="col-lg-6"><img className="img-fluid" src="assets/img/demo-image-01.jpg" alt="" /></div>
+                    <div className="col-lg-6"><img className="img-fluid" src="https://images.pexels.com/photos/4411381/pexels-photo-4411381.jpeg?cs=srgb&dl=pexels-swapnil-sharma-4411381.jpg&fm=jpg" alt="" /></div>
                     <div className="col-lg-6">
                         <div className="bg-black text-center h-100 project">
                             <div className="d-flex h-100">
                                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 className="text-white">smol game</h4>
-                                    <p className="mb-0 text-white-50"><a href="https://codepen.io/swapnil-sharma/pen/XWdwPLX" rel="noreferrer">currently working on it</a></p>
+                                    <h4 className="text-white">Photo by Swapnil Sharma from Pexels</h4>
+
+                                    <p className="mb-0 text-white-50"><a href="https://www.pexels.com/@eyeswithmyopia" rel="noreferrer">Check pexels for free stock photos</a></p>
                                     <hr className="d-none d-lg-block mb-0 ml-0" />
                                 </div>
                             </div>
@@ -141,7 +143,7 @@ render() {
                     </div>
                 </div>
                 <div className="row justify-content-center no-gutters">
-                    <div className="col-lg-6"><img className="img-fluid" src="assets/img/demo-image-02.jpg" alt="" /></div>
+                    <div className="col-lg-6"><img className="img-fluid" src="https://wallpapercave.com/wp/wp4462546.jpg" alt="" /></div>
                     <div className="col-lg-6 order-lg-first">
                         <div className="bg-black text-center h-100 project">
                             <div className="d-flex h-100">
@@ -179,7 +181,7 @@ render() {
                             <div className="card-body text-center">
                                 <i className="fas fa-map-marked-alt text-primary mb-2"></i>
                                 <h4 className="text-uppercase m-0">Address</h4>
-                                <hr className="my-4" />
+                                <br></br>
                                 <div className="small text-black-50"><a href="https://discord.gg/VrENcxEW" target="_blank" rel="noreferrer">find us on discord server for now</a></div>
                             </div>
                         </div>
@@ -189,7 +191,7 @@ render() {
                             <div className="card-body text-center">
                                 <i className="fas fa-envelope text-primary mb-2"></i>
                                 <h4 className="text-uppercase m-0">Email</h4>
-                                <hr className="my-4" />
+                                <br></br>
                                 <div className="small text-black-50"><a href="#!">swapnil.sharma1998@outlook.com</a></div>
                             </div>
                         </div>
@@ -199,7 +201,7 @@ render() {
                             <div className="card-body text-center">
                                 <i className="fas fa-mobile-alt text-primary mb-2"></i>
                                 <h4 className="text-uppercase m-0">Phone</h4>
-                                <hr className="my-4" />
+                                <br></br>
                                 <div className="small text-black-50">+91 7694-930899</div>
                             </div>
                         </div>

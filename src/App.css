@@ -1,6 +1,6 @@
 #helo {
-    text-align: center;
-  padding-top: 300px;
+  text-align: center;
+  padding-top: 200px;
   font-size: 30px;
   margin: auto;
   }
@@ -8,3 +8,4 @@
   html {
     scroll-behavior: smooth;
   }
+  
