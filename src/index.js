@@ -128,7 +128,7 @@ render() {
                     </div>
                 </div>
                 <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div className="col-lg-6"><img className="img-fluid" src="https://source.unsplash.com/collection/2512863/1000x1600" alt="" /></div>
+                    <div className="col-lg-6"><img className="img-fluid" src="https://source.unsplash.com/collection/2512863/1000x1400" alt="" /></div>
                     <div className="col-lg-6">
                         <div className="bg-black text-center h-100 project">
                             <div className="d-flex h-100">
