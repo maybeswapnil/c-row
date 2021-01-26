@@ -113,7 +113,7 @@ render() {
                         </p>
                     </div>
                 </div>
-                <img className="img-fluid" src="https://source.unsplash.com/collection/2512863/1650x566" alt="asfas"/>
+                <img className="img-fluid" src="https://source.unsplash.com/collection/256783/1600x850" alt="asfas"/>
             </div>
         </section>
         <section className="projects-section bg-light" id="projects">
@@ -128,7 +128,7 @@ render() {
                     </div>
                 </div>
                 <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div className="col-lg-6"><img className="img-fluid" src="https://images.pexels.com/photos/4411381/pexels-photo-4411381.jpeg?cs=srgb&dl=pexels-swapnil-sharma-4411381.jpg&fm=jpg" alt="" /></div>
+                    <div className="col-lg-6"><img className="img-fluid" src="https://source.unsplash.com/collection/2512863/1000x1600" alt="" /></div>
                     <div className="col-lg-6">
                         <div className="bg-black text-center h-100 project">
                             <div className="d-flex h-100">
@@ -193,6 +193,7 @@ render() {
                                 <h4 className="text-uppercase m-0">Email</h4>
                                 <br></br>
                                 <div className="small text-black-50"><a href="#!">swapnil.sharma1998@outlook.com</a></div>
+                                <div className="small text-black-50"><a href="#!">surajkumar7067682567@gmail.com</a></div>
                             </div>
                         </div>
                     </div>
